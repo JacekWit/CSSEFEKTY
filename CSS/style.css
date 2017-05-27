@@ -1,0 +1,77 @@
+p {
+    display:inline;
+    font-size: 2em;
+    color:#fff;
+}
+p:nth-child(odd) {
+    background-color: blue;
+    
+}
+p:nth-child(even){
+    background-color: orange;
+    
+}
+p:nth-child(1n+3){
+    display: block;
+}
+
+a{
+    width:200px;
+    height: 200px;
+    background-color: orange;
+    color: blue;
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    line-height:height: 200px;
+}
+
+img {
+    float: right;
+}
+p:nth-child(3){
+   
+}
+#kotek{
+    height:100px;
+    width:100px;
+    float:none;
+    margin-bottom: 300px;
+    display:inline-block;
+    transition: width 5s linear 0.5s, height 2s linear 0.5s; 
+  
+  
+    
+}
+
+#kotek:hover{
+    height:200px;
+    width:200px;
+    
+}
+
+#background{
+    height: 200vh;
+    background-color: aquamarine;
+    
+    
+    background: url(http://koty.wdfiles.com/local--files/kotek-naklania/kotek.jpg)center no-repeat;
+}
+
+
+#overflow p{
+    width:25%;
+    float: left;
+}
+
+
+#overflow p:nth-child(even){
+    background-color: antiquewhite;
+}
+
+
+#overflow p:nth-child(odd){
+    background-color: cyan;
+}
+
